@@ -1,10 +1,10 @@
 {
-    "PluginName": "插件名",
+    "PluginName": "随机动物园",
     "DependentLibraries": null,
     "IsLibraries": false,
     "PluginIcon": null,
-    "PluginAuthor": "插件作者",
-    "MainPyName": "插件主 .py 文件名, 不要带上 .py 后缀名",
-    "PluginDescription": "插件描述",
+    "PluginAuthor": "luyanci",
+    "MainPyName": "animal",
+    "PluginDescription": "随机返回动物图片",
     "EnablePlugin": true
 }
