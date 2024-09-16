@@ -54,6 +54,7 @@ def event(data: dict):  # 事件函数,FloraBot每收到一个事件都会调用
             #print(req_data)
             send_compatible(msg=f"[CQ:at,qq={uid}]\n[CQ:image,file={req_data[0].get('url')}]",uid=uid,gid=gid)
         if msg == "#随机狐狐":
+            req_data=requests.get("https://randomfox.ca/floof/")
             req_data=req_data.json()
             #print(req_data)
             send_compatible(msg=f"[CQ:at,qq={uid}]\n[CQ:image,file={req_data['image']}]\n{req_data['link']}",uid=uid,gid=gid)
