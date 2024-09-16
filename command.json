@@ -1,0 +1,18 @@
+[
+    {
+        "command": "#随机狗狗",
+        "content": "随机返回一张狗狗的图片(由thedogapis提供)"
+    },
+    {
+        "command": "#随机猫猫",
+        "content": "随机返回一张猫咪的图片(由thecatapi提供)"
+    },
+    {
+        "command": "#随机狐狐",
+        "content": "随机返回一张狐狸的图片(由randomfox提供)"
+    },
+    {
+        "command": "#随机鸭鸭",
+        "content": "随机返回一张鸭子的图片(由random-d提供)"
+    }
+]
